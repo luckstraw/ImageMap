@@ -70,3 +70,33 @@ body {
 .image-container:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; 
+        text-align: center; 
+        height: auto; 
+    }
+
+    .image-container img {
+        max-width: 100%; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+
+    .description {
+        max-width: 100%; 
+    }
+
+    .description h1 {
+        font-size: 1.8em; 
+    }
+
+    .description p {
+        font-size: 1em; 
+    }
+
+    .back-link {
+        font-size: 1em; 
+    }
+}
